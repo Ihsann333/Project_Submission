@@ -12,7 +12,7 @@ st.set_page_config(page_title="E-Commerce Demographics", page_icon="🛒", layou
 # Memuat data hasil pembersihan
 @st.cache_data
 def load_data():
-    df = pd.read_csv("clean_customers.csv")
+    df = pd.read_csv("Dashboard/clean_customers.csv")
     return df
 
 df = load_data()
