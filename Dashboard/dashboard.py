@@ -11,7 +11,7 @@ def load_data():
     file_paths = [
         "clean_customers.csv",
         "data/clean_customers.csv",
-        "dashboard/clean_customers.csv",
+        "Dashboard/clean_customers.csv",
         "../data/clean_customers.csv"
     ]
     
